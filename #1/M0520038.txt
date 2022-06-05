@@ -1,0 +1,97 @@
+Ilham Nur Romdoni + M0520038
+
+Class, atribut, dan behaviour/method.
+
+Contoh 1
+class Geeks
+{
+    // Access specifier
+    public:
+ 
+    // Data Members
+    string geekname;
+ 
+    // Member Functions()
+    void printname()
+    {
+       cout << "Geekname is: " << geekname;
+    }
+};
+
+Class: Geeks
+Atribut: geekname
+Method: printname
+
+Contoh 2
+class Geeks
+{
+    public:
+    string geekname;
+    int id;
+     
+    // printname is not defined inside class definition
+    void printname();
+     
+    // printid is defined inside class definition
+    void printid()
+    {
+        cout << "Geek id is: " << id;
+    }
+};
+
+Class: Geeks
+Atribut: geekname dan id
+Method: printid
+
+Contoh 3
+class Hall {
+    public:
+        double length;
+        double breadth;
+        double height;   
+ 
+        double calculateArea(){   
+            return length * breadth;
+        }
+ 
+        double calculateVolume(){   
+            return length * breadth * height;
+        }
+ 
+};
+
+Class: Hall
+Atribut: length, breadth, dan height
+Method: calculateArea dan calculateVolume
+
+Contoh 4
+class Cuboid {
+   public:
+      double length;         // Length of a cuboid
+      double breadth;        // Breadth of a cuboid
+      double height;         // Height of a cuboid
+      double getVolume(void);// Returns cuboid volume
+};
+
+Class: Cuboid
+Atribut: length, breadth, dan height
+Method: getVolume
+
+Contoh 5
+class Mahasiswa {
+    public:
+    string nama;
+    int IPK;
+    
+    void printnama() {
+	cout << "nama : " << nama << endl;
+    }
+
+    void printIPK() {
+	cout << "IPK : " << IPK << endl;
+    }
+};
+
+Class: Mahasiswa
+Atribut: nama dan IPK
+Method: printnama dan printIPK
